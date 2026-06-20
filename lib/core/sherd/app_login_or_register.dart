@@ -30,7 +30,7 @@ class AppLoginOrRegister extends StatelessWidget {
               Navigator.pop(context);
             }
           },
-          child:Text(isLogin?'Register':'Login',
+          child:Text(isLogin?'Register':'Login',  //
           style: TextStyle(
               color: Color(0xffD75D72),
               fontSize: 12,
